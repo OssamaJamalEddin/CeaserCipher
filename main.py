@@ -18,13 +18,3 @@ while running == 'YES':
         break
     print(output)
     running = input("Want to encode/decode more ? (Yes / No): ").upper()
-# import dec_enc
-#
-#
-# running = "YES"
-# while running == "YES":
-#     decision = input("Would you like to decode or encode ? \nEnter: ").upper()
-#     message = input("Enter the message: ")
-#     shifting = int(input("Enter the shifting number: "))
-#     dec_enc.ceaser_cypher(decision, message, shifting)
-#     running = input("Want to encode/decode more ? (Yes / No): ").upper()
